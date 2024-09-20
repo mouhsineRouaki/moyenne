@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!-- Title -->
+    <!-- Weight Input -->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="calculer moyenne d une matiere"
+        android:textColor="@color/primaryText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ct1"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="donner la note de controle n1"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColorHint="@color/primaryText" />
+
+    <EditText
+        android:id="@+id/ct2"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="donner la note de controle n2"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColorHint="@color/primaryText" />
+
+    <EditText
+        android:id="@+id/ct3"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="donner la note de controle n3"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColorHint="@color/primaryText" />
+    <!-- Height Input -->
+    <EditText
+        android:id="@+id/ct4"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="donner la note de controle n4"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColorHint="@color/primaryText" />
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calcul"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_bg"
+        android:text="calcul"
+        android:textColor="@color/buttonText" />
+    <!-- Result Display -->
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:textColor="@color/secondaryText"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:textColor="@color/secondaryText"
+        android:textSize="16sp" />
+</LinearLayout>
